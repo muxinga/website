@@ -1,0 +1,8 @@
+* {padding: 0;margin: 0;}
+#splash {
+	background-color: #CCC;
+}
+#splash img {
+	min-width: 100%;
+	background-color: #F00;
+}
