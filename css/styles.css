@@ -64,14 +64,43 @@ img.responsive {
 	clear: both;
 }
 
-.col {
+.row .col {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 @media (min-width: 992px) {
-	.col {
+	.row .col {
 		width: 33%;
 		float: left;
 	}
 }
+
+/* FLEX */
+
+.row-flex {
+	display: flex;
+}
+
+/* GRID */
+
+.row-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/*
+celulares landscape (deitado)
+daqui pra cima,
+celulares em portrait (em pé)
+*/
+@media (min-width: 576px) {}
+
+/* TABLET E MAIORES */
+@media (min-width: 768px) {}
+
+/* MoNITORES MENORES E MAIORES */
+@media (min-width: 992px) {}
+
+/* MONITORES MAIORES */
+@media (min-width: 1200px) {}
